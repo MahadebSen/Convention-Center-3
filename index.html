@@ -14,6 +14,9 @@
         body{
             font-family: 'Poppins', sans-serif;
         }
+        .br-radius{
+          border-radius: 2rem;
+        }
     </style>
 
     <!-- fontawesome link -->
@@ -51,6 +54,9 @@
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
+
+              <!-- Carousel text part -->
+
                 <div class="position-absolute text-center top-50 start-50 translate-middle-x text-nowrap" style="z-index: 1;">
                     <p class="text-white fs-1 fw-bold">The perfect venue for your<br>
                     next event</p>
@@ -58,6 +64,9 @@
                     Happily ever after begins here. And so, the adventure begins.</p>
                     <button type="button" class="btn btn-light px-4 py-2 btn-outline-primary fw-bold">Book Now</button>
                 </div>
+
+                <!-- carousel picture part -->
+
               <div class="carousel-item active">
                 <img src="images/banner/1.jpg" class="d-block w-100" alt="...">
               </div>
@@ -79,7 +88,10 @@
           </div>
     </header>
     <main>
-        <section class="">
+
+      <!-- every moment section -->
+      
+        <section class="position-relative py-4">
             <div class="d-flex justify-content-center align-items-center  py-5 px-1">
                 <div class="text-center">
                     <img class="container-fluid w-75" src="images/wedding.png" alt="">
@@ -90,10 +102,145 @@
                     <button type="button" class="btn btn-light px-4 py-2 btn-outline-primary fw-bold">Explore our album <i class="fas fa-arrow-right"></i></button>
                 </div>
             </div>
+
+            <!-- toast -->
+
+            <div class="toast toast show align-items-center position-absolute top-50 end-0 translate-middle-y border border-top-0 border-bottom-0 border-end-0  border-5 border-primary" role="alert" aria-live="assertive" aria-atomic="true">
+              <div class="d-flex">
+                <div class="toast-body ">
+                  <img src="icons/Vector.svg" alt="">
+                20% off on next booking.
+               </div>
+                <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+              </div>
+            </div>
         </section>
+
+        <!-- package section -->
+
+        <section class="container ">
+          <p class="fs-3 fw-bolder text-center py-4">Our Package</p>
+          <div Class="row gx-5">
+
+            <!-- first plan -->
+
+            <div class="col-md-6 col-lg-3 px-3 py-4">
+              <p class="fs-3 fw-bolder">$300</p>
+
+              <p class="fs-4 fw-bold">Business fair</p>
+              
+              <p class="fs-">For most businesses event<br>
+                like book fair. Craft fair.</p>
+
+              <p><i class="far fa-check-circle text-primary"></i> Limited space access</p>
+              <p><i class="far fa-check-circle text-primary"></i> Security facility</p>
+              <p><i class="far fa-check-circle text-primary"></i> Event support</p>
+              <p><i class="far fa-check-circle text-primary"></i> Decoration design</p>
+              <p><i class="far fa-check-circle text-primary"></i> Per day bill</p>
+
+              <button type="button" class="btn btn-light px-5 py-2 btn-outline-primary fw-bold rounded-pill">Choose plan</button>
+            </div>
+
+            <!-- second plan -->
+
+            <div class="col-md-6 col-lg-3 px-3 py-4">
+              <p class="fs-3 fw-bolder">$500</p>
+
+              <p class="fs-4 fw-bold">Wedding basic</p>
+              
+              <p>For wedding with basic plan<br>
+                and limited item.</p>
+
+              <p><i class="far fa-check-circle text-primary"></i> Full space access</p>
+              <p><i class="far fa-check-circle text-primary"></i> Food arrangement</p>
+              <p><i class="far fa-check-circle text-primary"></i> Management support</p>
+              <p><i class="far fa-check-circle text-primary"></i> Decoration design</p>
+              <p><i class="far fa-check-circle text-primary"></i> Billed as shift</p>
+
+              <button type="button" class="btn btn-light px-5 py-2 btn-outline-primary fw-bold rounded-pill">Choose plan</button>
+            </div>
+
+            <!-- third plan -->
+
+            <div class="col-md-6 col-lg-3 px-3 py-4 position-relative bg-primary text-white br-radius">
+              <p class="fs-3 fw-bolder">$800</p>
+
+              <p class="fs-4 fw-bold">Wedding plus</p>
+              
+              <p>For most wedding with<br>
+                premium plans</p>
+
+              <p><i class="far fa-check-circle"></i> Full space access</p>
+              <p><i class="far fa-check-circle"></i> Dedicated team</p>
+              <p><i class="far fa-check-circle"></i> Buffet food</p>
+              <p><i class="far fa-check-circle"></i> Premium Decoration</p>
+              <p><i class="far fa-check-circle"></i> Per as plan</p>
+
+              <button type="button" class="btn btn-light px-5 py-2 btn-outline-primary fw-bold rounded-pill">Choose plan</button>
+            </div>
+
+            <!-- forth plan -->
+
+            <div class="col-md-6 col-lg-3 px-3 py-4">
+              <p class="fs-3 fw-bolder">$1200</p>
+
+              <p class="fs-4 fw-bold">Corporate event</p>
+              
+              <p>For most corporate business<br>
+                events</p>
+
+              <p><i class="far fa-check-circle text-primary"></i> Full space access</p>
+              <p><i class="far fa-check-circle text-primary"></i> Dedicated team</p>
+              <p><i class="far fa-check-circle text-primary"></i> Buffet food</p>
+              <p><i class="far fa-check-circle text-primary"></i> Premium Decoration</p>
+              <p><i class="far fa-check-circle text-primary"></i> Per as plan</p>
+
+              <button type="button" class="btn btn-light px-5 py-2 btn-outline-primary fw-bold rounded-pill">Choose plan</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Clients feedback -->
+
+        <section class="container">
+          <p class="fs-3 fw-bolder text-center py-5">Happy Clients says</p>
+          <div class="row gx-5">
+
+            <div class="col-md-6 text-center shadow-lg p-4 mb-5 bg-body rounded">
+              <p><q>Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</q></p>
+                <img class="pb-4" src="images/person/person 2.png" alt="">
+                <p class="fw-bold">Regina Milesp</p>
+                <p>Banker</p>
+            </div>
+
+            <div class="col-md-6 text-center shadow-lg p-4 mb-5 bg-body rounded">
+              <p><q>Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</q></p>
+                <img class="pb-4" src="images/person/person 3.png" alt="">
+                <p class="fw-bold">Regina Miles</p>
+                <p>Banker</p>
+            </div>
+
+            <div class="col-md-6 text-center shadow-lg p-4 mb-5 bg-body rounded">
+              <p><q>Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</q></p>
+                <img class="pb-4" src="images/person/person 1.png" alt="">
+                <p class="fw-bold">Regina Miles</p>
+                <p>Banker</p>
+            </div>
+          </div>
+        </section>
+
     </main>
 
-    <!-- We do not believe in building brand by monetizing social media pages or buying out awards. We believe in building relationships and grow organically. -->
+    
     <!-- script tag -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
 </body>
